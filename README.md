@@ -269,15 +269,15 @@ Replace `$BASE` with `https://all-india-institutions-data.vercel.app` (live) or 
 # List states
 curl $BASE/api/institutions/states
 
-# Institutions in Karnataka
-curl $BASE/api/institutions/states/karnataka
+# Institutions in Kolkata
+curl $BASE/api/institutions/states/kolkata
 
 # Single institution
-curl $BASE/api/institutions/states/karnataka/1-44273184624
+curl $BASE/api/institutions/states/kolkata/1-44643061326
 
 # Fuzzy search
-curl "$BASE/api/institutions/search?q=engineering&state=karnataka&limit=10"
+curl "$BASE/api/institutions/search?q=engineering&state=kolkata&limit=10"
 
 # Exact search by district
-curl "$BASE/api/institutions/search?district=bangalore&mode=exact"
+curl "$BASE/api/institutions/search?district=kolkata&mode=exact"
 ```
