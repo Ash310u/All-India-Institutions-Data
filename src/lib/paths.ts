@@ -10,6 +10,10 @@ export const ALL_INSTITUTIONS_FILE = path.join(
   DATASET_DIR,
   "all-institutions.json"
 );
+export const ALL_INSTITUTIONS_WITH_PROGRAMMES_FILE = path.join(
+  DATASET_DIR,
+  "all-institutions-with-programmes.json"
+);
 
 export function stateFileName(stateSlug: string) {
   return `${stateSlug}.institutions.json`;

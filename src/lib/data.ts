@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import {
   ALL_INSTITUTIONS_FILE,
+  ALL_INSTITUTIONS_WITH_PROGRAMMES_FILE,
   METADATA_FILE,
   STATES_DIR,
   stateFilePath,
@@ -75,12 +76,46 @@ export async function readMetadata() {
 }
 
 export async function readAllInstitutionsFile() {
-  try {
-    const text = await fs.readFile(ALL_INSTITUTIONS_FILE, "utf8");
-    return JSON.parse(text) as Institution[];
-  } catch {
-    return null;
+  for (const filePath of [
+    ALL_INSTITUTIONS_WITH_PROGRAMMES_FILE,
+    ALL_INSTITUTIONS_FILE,
+  ]) {
+    try {
+      const text = await fs.readFile(filePath, "utf8");
+      const parsed = JSON.parse(text) as Institution[];
+      if (parsed?.length) return parsed;
+    } catch {
+      // try next file
+    }
   }
+
+  return null;
+}
+
+async function mergeStateInstitutions() {
+  const files = await listStateFiles();
+  const combined: Institution[] = [];
+  const seen = new Set<string>();
+
+  for (const fileName of files) {
+    const filePath = path.join(STATES_DIR, fileName);
+    try {
+      const raw = await fs.readFile(filePath, "utf8");
+      const parsed = JSON.parse(raw || "[]") as Institution[];
+      if (!Array.isArray(parsed)) continue;
+
+      for (const inst of parsed) {
+        const id = pickId(inst);
+        if (id && seen.has(id)) continue;
+        if (id) seen.add(id);
+        combined.push(inst);
+      }
+    } catch {
+      // skip unreadable state files
+    }
+  }
+
+  return combined;
 }
 
 export async function listStateFiles() {
@@ -109,26 +144,23 @@ export async function loadAllInstitutions(force = false) {
   if (mergedCache && !force) return mergedCache;
 
   const fromFile = await readAllInstitutionsFile();
+  if (fromFile?.length && fromFile[0]?.state !== undefined) {
+    mergedCache = fromFile;
+    return mergedCache;
+  }
+
+  const fromStates = await mergeStateInstitutions();
+  if (fromStates.length) {
+    mergedCache = fromStates;
+    return mergedCache;
+  }
+
   if (fromFile?.length) {
     mergedCache = fromFile;
     return mergedCache;
   }
 
-  const files = await listStateFiles();
-  const combined: Institution[] = [];
-
-  for (const fileName of files) {
-    const filePath = path.join(STATES_DIR, fileName);
-    try {
-      const raw = await fs.readFile(filePath, "utf8");
-      const parsed = JSON.parse(raw || "[]") as Institution[];
-      if (Array.isArray(parsed)) combined.push(...parsed);
-    } catch {
-      // skip unreadable state files
-    }
-  }
-
-  mergedCache = combined;
+  mergedCache = [];
   return mergedCache;
 }
 

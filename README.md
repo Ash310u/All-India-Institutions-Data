@@ -263,21 +263,23 @@ Each institution in `data` arrays generally looks like:
 
 ## Example requests
 
-Replace `$BASE` with `https://all-india-institutions-data.vercel.app` (live) or `http://localhost:4001` (local).
+Use the deployed URL: `https://all-india-institutions-data.vercel.app` as the API base.
 
 ```bash
 # List states
-curl $BASE/api/institutions/states
+curl https://all-india-institutions-data.vercel.app/api/institutions/states
 
 # Institutions in Kolkata
-curl $BASE/api/institutions/states/kolkata
+curl https://all-india-institutions-data.vercel.app/api/institutions/states/kolkata
 
 # Single institution
-curl $BASE/api/institutions/states/kolkata/1-44643061326
+curl https://all-india-institutions-data.vercel.app/api/institutions/states/kolkata/1-44643061326
 
 # Fuzzy search
-curl "$BASE/api/institutions/search?q=engineering&state=kolkata&limit=10"
+curl "https://all-india-institutions-data.vercel.app/api/institutions/search?q=engineering&state=kolkata&limit=10"
 
 # Exact search by district
-curl "$BASE/api/institutions/search?district=kolkata&mode=exact"
+curl "https://all-india-institutions-data.vercel.app/api/institutions/search?district=kolkata&mode=exact"
 ```
+
+If running locally, replace the base URL with `http://localhost:4001`.
