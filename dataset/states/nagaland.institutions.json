@@ -1,0 +1,570 @@
+[
+  {
+    "aicte_id": "1-36972806726",
+    "institute_name": "GOVERNMENT POLYTECHNIC PEREN",
+    "address": "NEW PEREN, PEREN DISTRICT",
+    "district": "PEREN",
+    "institution_type": "Government",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-11301295001",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "INTERIOR DESIGN",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Directorate of Higher & Technical Education, Nagaland"
+  },
+  {
+    "aicte_id": "1-44638332189",
+    "institute_name": "ST. JOSEPH UNIVERSITY",
+    "address": "VIRGIN TOWN, IKISHE  VILLAGE",
+    "district": "DIMAPUR",
+    "institution_type": "State Private University",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-3702691021",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "UNDER GRADUATE",
+        "course": "CIVIL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "60",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "UNDER GRADUATE",
+        "course": "COMPUTER SCIENCE AND ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "60",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": " St.Joseph university"
+  },
+  {
+    "aicte_id": "1-44638274367",
+    "institute_name": "GOVERNMENT POLYTECHNIC SEITHEKEMA C, CHUMOUKEDIMA",
+    "address": "GOVERNMENT POLYTECHNIC SEITHEKEMA-C, DIMAPUR 797103",
+    "district": "DIMAPUR",
+    "institution_type": "Government",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-3898484361",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "CIVIL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "40",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Directorate of Higher & Technical Education, Nagaland"
+  },
+  {
+    "aicte_id": "1-44638907484",
+    "institute_name": "GOVERNMENT POLYTECHNIC ABOI",
+    "address": "ABOI TOWN, MON DISTRICT",
+    "district": "MON",
+    "institution_type": "Government",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-11315201771",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "CIVIL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Directorate of Higher & Technical Education, Nagaland"
+  },
+  {
+    "aicte_id": "1-44638797258",
+    "institute_name": "GOVERNMENT POLYTECHNIC TSUNAZHO CHETHEBA",
+    "address": "GOVERNMENT POLYTECHNIC TSUNAZHO, CHETHEBA, PHEK, 797108",
+    "district": "PHEK",
+    "institution_type": "Government",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-3898580681",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Directorate of Higher & Technical Education, Nagaland"
+  },
+  {
+    "aicte_id": "1-44638798219",
+    "institute_name": "GOVERNMENT POLYTECHNIC SEDEM",
+    "address": "GOVERNMENT POLYTECHNIC SEDEM TUENSANG",
+    "district": "TUENSANG",
+    "institution_type": "Government",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-3898707101",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "CIVIL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Directorate of Higher & Technical Education, Nagaland"
+  },
+  {
+    "aicte_id": "1-44639902595",
+    "institute_name": "NAGALAND TOOL ROOM & TRAINING CENTRE",
+    "address": "NAGALAND TOOL ROOM & TRAINING CENTRE, NEW INDUSTRIAL, NEAR SUB-JAIL JUNCTION, TINALI, NH-36, DIMAPUR, NAGALAND 797112",
+    "district": "DIMAPUR",
+    "institution_type": "Govt aided",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-2094042981",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "DIPLOMA IN MECHANICAL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "60",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "COMPUTER SCIENCE & ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Directorate of Technical Education"
+  },
+  {
+    "aicte_id": "1-44639918314",
+    "institute_name": "KHELHOSHE POLYTECHNIC ATOIZU",
+    "address": "KHELHOSHE POLYTECHNIC ATOIZU : ZUNHEBOTO: NAGALAND",
+    "district": "ZUNHEBOTO",
+    "institution_type": "Government",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-2506807231",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "CIVIL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "60",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "MECHANICAL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "AUTOMOBILE ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "State Council for Technical Education Nagaland"
+  },
+  {
+    "aicte_id": "1-44640663638",
+    "institute_name": "INSTITUTE OF COMMUNICATION AND INFORMATION TECHNOLOGY",
+    "address": "INSTITUTE OF COMMUNICATION & INFORMATION TECHNOLOGY MOKOKCHUNG: NAGALAND 798601 POST BOX-131",
+    "district": "MOKOKCHUNG",
+    "institution_type": "Government",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-2498927471",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "COMPUTER SCIENCE AND ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "15",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "ELECTRONICS & COMMUNICATION ENGG",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "8",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "DEPT OF TECHNICAL EDUCATION"
+  },
+  {
+    "aicte_id": "1-44640246705",
+    "institute_name": "GOVERNMENT POLYTECHNIC KOHIMA",
+    "address": "GOVERNMENT POLYTECHNIC KOHIMA, NEAR I.G STADIUM, KOHIMA,  NAGALAND 797001",
+    "district": "KOHIMA",
+    "institution_type": "Government",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-2492116821",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "COMPUTER SCIENCE AND ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "DIPLOMA",
+        "course": "CIVIL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "APPLIED ARTS AND CRAFTS",
+        "level": "DIPLOMA",
+        "course": "FASHION TECHNOLOGY",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Directorate of Higher & Technical Education, Nagaland"
+  },
+  {
+    "aicte_id": "1-44641022997",
+    "institute_name": "SCHOOL OF ENGINEERING AND TECHNOLOGY",
+    "address": "SCHOOL OF ENGINEERING & TECHNOLOGY, NAGALAND UNIVERSITY, KOHIMA CAMPUS, MERIEMA, KOHIMA, NAGALAND 797004",
+    "district": "KOHIMA",
+    "institution_type": "Central University",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-1471259901",
+    "programmes": [
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "UNDER GRADUATE",
+        "course": "AGRICULTURAL ENGINEERING",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "UNDER GRADUATE",
+        "course": "COMPUTER SCIENCE",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "UNDER GRADUATE",
+        "course": "ELECTRONICS AND COMMUNICATION ENGINEERING (INDUSTRY INTEGRATED)",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "ENGINEERING AND TECHNOLOGY",
+        "level": "UNDER GRADUATE",
+        "course": "INFORMATION TECHNOLOGY",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "NOT APPLICABLE"
+  },
+  {
+    "aicte_id": "1-44644503966",
+    "institute_name": "TETSO COLLEGE",
+    "address": "TETSO COLLEGE SOVIMA, 5TH MILE, CHÃÅMOUKEDIMA, NAGALAND, INDIA, 797115",
+    "district": "DIMAPUR",
+    "institution_type": "Private-Self Financing",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-44449925824",
+    "programmes": [
+      {
+        "programme": "MANAGEMENT",
+        "level": "UNDER GRADUATE",
+        "course": "BBA",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "120",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "COMPUTER APPLICATIONS",
+        "level": "UNDER GRADUATE",
+        "course": "BCA",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "60",
+        "enrollment": "",
+        "placement": ""
+      },
+      {
+        "programme": "MANAGEMENT",
+        "level": "POST GRADUATE",
+        "course": "MBA",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "60",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Nagaland University, Lumami"
+  },
+  {
+    "aicte_id": "1-44644475500",
+    "institute_name": "C EDGE COLLEGE",
+    "address": "NAGA UNITED VILLAGE",
+    "district": "DIMAPUR",
+    "institution_type": "Govt aided",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-44400154784",
+    "programmes": [
+      {
+        "programme": "MANAGEMENT",
+        "level": "UNDER GRADUATE",
+        "course": "BBA",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "50",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Central University Nagaland"
+  },
+  {
+    "aicte_id": "1-44644988841",
+    "institute_name": "UNITY COLLEGE",
+    "address": "RESIDENCY COLONY PWD AREA",
+    "district": "DIMAPUR",
+    "institution_type": "Govt aided",
+    "women": "Y",
+    "minority": "N",
+    "other_id": "1-44534226584",
+    "programmes": [
+      {
+        "programme": "COMPUTER APPLICATIONS",
+        "level": "UNDER GRADUATE",
+        "course": "BCA",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Nagaland University, Lumami"
+  },
+  {
+    "aicte_id": "1-44644705839",
+    "institute_name": "SAZOLIE COLLEGE",
+    "address": "PHEZHU, JOTSOMA",
+    "district": "KOHIMA",
+    "institution_type": "Govt aided",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-44468173914",
+    "programmes": [
+      {
+        "programme": "MANAGEMENT",
+        "level": "UNDER GRADUATE",
+        "course": "BBA",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "60",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Nagaland University, Lumami"
+  },
+  {
+    "aicte_id": "1-44644930551",
+    "institute_name": "ST JOSEPHS COLLEGE AUTONOMOUS",
+    "address": "P.B. NO. 39, KOHIMA, NAGALAND",
+    "district": "KOHIMA",
+    "institution_type": "Private-Self Financing",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-44521119994",
+    "programmes": [
+      {
+        "programme": "MANAGEMENT",
+        "level": "UNDER GRADUATE",
+        "course": "BBA",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "80",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Nagaland University, Lumami"
+  },
+  {
+    "aicte_id": "1-44889036883",
+    "institute_name": "EASTERN CHRISTIAN COLLEGE",
+    "address": "PADUMPUKHURI",
+    "district": "DIMAPUR",
+    "institution_type": "Private-Self Financing",
+    "women": "N",
+    "minority": "N",
+    "other_id": "1-44889036883",
+    "programmes": [
+      {
+        "programme": "MANAGEMENT",
+        "level": "UNDER GRADUATE",
+        "course": "BBA",
+        "course_type": "Course Institute-1",
+        "shift": "1st Shift",
+        "availability": "FULL TIME",
+        "intake": "30",
+        "enrollment": "",
+        "placement": ""
+      }
+    ],
+    "state": "Nagaland",
+    "university": "Nagaland University, Lumami"
+  }
+]

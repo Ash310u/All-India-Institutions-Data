@@ -1,0 +1,22 @@
+{
+  "name": "indian-colleges-institutions-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.4",
+    "fuse.js": "^7.1.0",
+    "hono": "^4.7.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.19.4",
+    "typescript": "^5"
+  }
+}
