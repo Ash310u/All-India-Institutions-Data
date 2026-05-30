@@ -2,6 +2,7 @@
   "name": "indian-colleges-institutions-api",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://all-india-institutions-data.vercel.app",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",

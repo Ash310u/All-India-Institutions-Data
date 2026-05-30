@@ -1,8 +1,10 @@
 # Indian Colleges Institutions API
 
-Local HTTP API for AICTE-approved college/institution data across Indian states. Data is served from files under `dataset/` by default; some routes can optionally fetch live from the AICTE upstream.
+HTTP API for AICTE-approved college/institution data across Indian states. Data is served from files under `dataset/` by default; some routes can optionally fetch live from the AICTE upstream.
 
-Default base URL: `http://localhost:4001`
+**Live API:** [https://all-india-institutions-data.vercel.app](https://all-india-institutions-data.vercel.app)
+
+**Local dev:** `http://localhost:4001`
 
 ## Quick start
 
@@ -261,19 +263,21 @@ Each institution in `data` arrays generally looks like:
 
 ## Example requests
 
+Replace `$BASE` with `https://all-india-institutions-data.vercel.app` (live) or `http://localhost:4001` (local).
+
 ```bash
 # List states
-curl http://localhost:4001/api/institutions/states
+curl $BASE/api/institutions/states
 
 # Institutions in Karnataka
-curl http://localhost:4001/api/institutions/states/karnataka
+curl $BASE/api/institutions/states/karnataka
 
 # Single institution
-curl http://localhost:4001/api/institutions/states/karnataka/1-44273184624
+curl $BASE/api/institutions/states/karnataka/1-44273184624
 
 # Fuzzy search
-curl "http://localhost:4001/api/institutions/search?q=engineering&state=karnataka&limit=10"
+curl "$BASE/api/institutions/search?q=engineering&state=karnataka&limit=10"
 
 # Exact search by district
-curl "http://localhost:4001/api/institutions/search?district=bangalore&mode=exact"
+curl "$BASE/api/institutions/search?district=bangalore&mode=exact"
 ```
